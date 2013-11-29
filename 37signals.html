@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="main.css"/>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	<!-- doesn't look for http locally need to be added; https is secure server --> 
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <!-- <script type='text/javascript' src='jquery-2.0.3.js'></script> -->
+    <script type='text/javascript' src='script.js'></script>
+	<title>"Peter's 37 Signals page"</title>
+</head>
+
+<body>
+	<div id="greetingcontainer">
+		<span id="greeting"> <!-- div might take up block level space but you can float it; span wouldn't try to take block level-->
+			<p>Happy Thursday</p>
+		</span>
+
+		<span id="nav">
+			<ul>
+				<li>Company blog</li>
+				<li>Out story</li>
+				<li>Follow us on Twitter</li>
+				<li>System status</li>
+				<li>Sign in</li>
+			</ul>
+		</span>
+	</div>
+
+
+	<div id="logo">
+		<img src="logo.png" alt="37 signals logo"/>
+	</div>
+
+	<div id="tagline">
+		<h1>Making collaboration productive and <br> enjoyable for people every day.</h1>
+		<h2>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h2>
+	</div>
+
+	<div id="BasecampHover">
+		<h1>Basecamp is the project management tool you <br> wish you had on your last project.</h1>
+		<h2>Are you still managing projects with email? Are you still using Excel for your to do lists? It's time to upgrade to <br> Basecamp. Manage projects and collaborate with your team and client the modern way.</h2>
+	</div>
+
+	<div id="HighriseHover">
+		<h1>Highrise remembers the important things <br> about people you'd normally forget.</h1>
+		<h2>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, <br>
+		what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</h2>
+	</div>
+
+	<div id="CampfireHover">
+		<h1>From near or far, Campfire helps teams work <br> together over the web in real-time.</h1>
+		<h2>Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time <br> private chat room. It's game changing. We couldn't run our own business without Campfire.</h2>
+	</div>
+
+	<div id="products">
+		<img id="BasecampLogo" src="Basecamp.png" alt="Basecamp logo"/> <!--alt shows up in place of image before it loads; for screen readers; Google uses it for SEO-->
+		<img id="HighriseLogo" src="Highrise.png" alt="Highrise logo"/>
+		<img id="CampfireLogo" src="Campfire.png" alt="Campfire logo"/>
+	</div>
+
+</body>
