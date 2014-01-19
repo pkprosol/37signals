@@ -13,7 +13,7 @@ $(document).ready(function(){
 	var day = weekday[today.getDay()];
 
 	$('#greeting').html("Happy " + day +"!");
-	$('#BasecampHover', '#HighriseHover', '#CampfireHover').hide(); // group these selectors with commas
+	$('#BasecampHover, #HighriseHover, #CampfireHover').hide(); // group these selectors with commas
 	$('#BasecampLogo').mouseenter(function() {
 		$('#tagline').hide();
 		$('#BasecampHover').show();
