@@ -447,7 +447,7 @@ table {
 
 #logo {
   display: block;
-  margin-top: 20px;
+  padding-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
   width: 170px;
@@ -492,6 +492,6 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;*/
   position: absolute;
-  left: 350px;
+  left: 440px;
   top: 300px;
 }
