@@ -410,7 +410,7 @@ table {
   float: left;
   width: 100%;
   font-family: "Lucida Grande", sans-serif;
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 
 #greeting { /* both need to float to be in same line */
@@ -427,8 +427,9 @@ table {
 }
 
 #nav {
-	float: left;
+	float: right;
   display: inline;
+
   width: 45%;
 }
 
