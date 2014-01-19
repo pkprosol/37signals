@@ -1,4 +1,7 @@
 $(document).ready(function(){
+	var today = new Date();
+	var dd = today.getDate();
+	$('#greeting').html("Happy " + dd +"!");
 	$('#BasecampHover', '#HighriseHover', '#CampfireHover').hide(); // group these selectors with commas
 	$('#BasecampLogo').mouseenter(function() {
 		$('#tagline').hide();
