@@ -1,7 +1,5 @@
 $(document).ready(function(){
-	$('#BasecampHover').hide();
-	$('#HighriseHover').hide();
-	$('#CampfireHover').hide();
+	$('#BasecampHover', '#HighriseHover', '#CampfireHover').hide(); // group these selectors with commas
 	$('#BasecampLogo').mouseenter(function() {
 		$('#tagline').hide();
 		$('#BasecampHover').show();
