@@ -436,6 +436,8 @@ table {
 #nav ul {
   margin: 0px;
   margin-top: 10px;
+  float: right;
+  margin-right: 20px;
 }
 
 #nav li {
