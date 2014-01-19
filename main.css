@@ -495,5 +495,10 @@ h2 {
 	margin-right: auto;*/
   position: absolute;
   left: 440px;
-  top: 300px;
+  top: 330px;
+}
+
+#HighriseLogo {
+  margin-left: 25px;
+  margin-right: 25px;
 }
