@@ -410,7 +410,7 @@ table {
   float: left;
   width: 100%;
   font-family: "Lucida Grande", sans-serif;
-  font-size: 0.5em;
+  font-size: 0.6em;
 }
 
 #greeting { /* both need to float to be in same line */
