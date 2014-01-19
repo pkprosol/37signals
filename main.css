@@ -495,10 +495,18 @@ h2 {
 	margin-right: auto;*/
   position: absolute;
   left: 440px;
-  top: 330px;
+  top: 335px;
 }
 
 #HighriseLogo {
   margin-left: 25px;
   margin-right: 25px;
+}
+
+#Hovers h1 {
+  font-size: 2.3em;
+}
+
+#Hovers h2 {
+  font-family: "Lucida Grande", sans-serif;
 }
