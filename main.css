@@ -408,6 +408,7 @@ table {
 #greetingcontainer {
   float: left;
   width: 100%;
+  font-family: "Lucida Grande", sans-serif;
 }
 
 #greeting { /* both need to float to be in same line */
@@ -454,31 +455,34 @@ table {
 
 #tagline {
 	text-align: center;
-  font-family: serif;
+
 }
 
 #BasecampHover {
   text-align: center;
-  font-family: serif;
+
 }
 
 #HighriseHover {
   text-align: center;
-  font-family: serif;
+
 }
 
 #CampfireHover {
   text-align: center;
-  font-family: serif;
+
 }
 
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-family: "crimsonsemibold", serif;
 }
 
 h2 {
 	font-size: 1em;
+  font-family: "crimsonsemibold", serif;
+
 }
 
 #products {
