@@ -1,7 +1,18 @@
 $(document).ready(function(){
+
+	var weekday=new Array(7);
+	weekday[0]="Sunday";
+	weekday[1]="Monday";
+	weekday[2]="Tuesday";
+	weekday[3]="Wednesday";
+	weekday[4]="Thursday";
+	weekday[5]="Friday";
+	weekday[6]="Saturday";
+
 	var today = new Date();
-	var dd = today.getDate();
-	$('#greeting').html("Happy " + dd +"!");
+	var day = weekday[today.getDay()];
+
+	$('#greeting').html("Happy " + day +"!");
 	$('#BasecampHover', '#HighriseHover', '#CampfireHover').hide(); // group these selectors with commas
 	$('#BasecampLogo').mouseenter(function() {
 		$('#tagline').hide();
