@@ -406,14 +406,15 @@ table {
 }
 
 #greetingcontainer {
+  margin-top: 20px;
   float: left;
   width: 100%;
   font-family: "Lucida Grande", sans-serif;
+  font-size: 0.7em;
 }
 
 #greeting { /* both need to float to be in same line */
 	color: grey;
-	font-size: 15px;
 	display: inline; 
 	float: left;
   width: 50%; 
@@ -437,7 +438,6 @@ table {
 }
 
 #nav li {
-	font-size: 15px;
 	color: blue;
 	display: inline;
 	padding-left: 20px;
