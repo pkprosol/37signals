@@ -461,19 +461,25 @@ table {
 
 }
 
+#tagline {
+  height: 200px;
+}
+
+
+
 #BasecampHover {
   text-align: center;
-
+  height: 200px;
 }
 
 #HighriseHover {
   text-align: center;
-
+height: 200px;
 }
 
 #CampfireHover {
   text-align: center;
-
+height: 200px;
 }
 
 h1 {
@@ -481,21 +487,18 @@ h1 {
   margin-bottom: 0px;
   font-family: "crimsonsemibold", serif;
   font-size: 2.5em;
+  white-space: nowrap;
+
 }
 
 h2 {
 	font-size: 1em;
   font-family: "crimsonsemibold", serif;
-
+  white-space: nowrap;
 }
 
 #products {
-  /*width: 1170px;
-	margin-left: auto;
-	margin-right: auto;*/
-  width: 612px;
-  position: absolute;
-  top: 335px;
+  width: 618px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -511,4 +514,5 @@ h2 {
 
 #Hovers h2 {
   font-family: "Lucida Grande", sans-serif;
+  font-size: 0.9em;
 }
